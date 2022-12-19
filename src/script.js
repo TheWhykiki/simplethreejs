@@ -33,7 +33,7 @@ function init() {
             // model
 
             const loader = new GLTFLoader().setPath( '/' );
-            loader.load( './models/gltf/Testszene.gltf', function ( gltf ) {
+            loader.load( './models/gltf/DamagedHelmet.gltf', function ( gltf ) {
 
                 scene.add( gltf.scene );
 
